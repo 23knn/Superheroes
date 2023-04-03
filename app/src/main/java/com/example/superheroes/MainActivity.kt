@@ -4,6 +4,9 @@ import SuperheroesTheme
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.modifier.modifierLocalConsumer
 import com.example.superheroes.views.HeroApp
 
 class MainActivity : ComponentActivity() {
@@ -11,7 +14,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             SuperheroesTheme() {
-                HeroApp()
+                HeroApp(modifier = Modifier.fillMaxSize())
             }
         }
     }
