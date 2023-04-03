@@ -2,6 +2,7 @@
 <resources>
 
     <style name="Theme.Superheroes" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:statusBarColor">@color/app_background</item>
+        <item name="android:windowLightStatusBar">true</item> // prevents the time, battery etc from disappearing
     </style>
 </resources>
