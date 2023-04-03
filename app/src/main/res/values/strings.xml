@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Superheroes</string>
+    <string name="hero1">Nubia</string>
+    <string name="hero2">Luke Cage</string>
+    <string name="hero3">Divinity</string>
+    <string name="hero4">Blade</string>
+    <string name="hero5">Thunder</string>
+    <string name="hero6">Blue Marvel</string>
+    <string name="description1">The goddess</string>
+    <string name="description2">The awesome</string>
+    <string name="description3">The divine</string>
+    <string name="description4">The crazy cool</string>
+    <string name="description5">The unshakable</string>
+    <string name="description6">The very very strong</string>
 </resources>
